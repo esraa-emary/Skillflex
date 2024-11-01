@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.header{
+    height: 10vh;
+    background-color: #000;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding-left:2rem;
+    padding-right: 2rem; 
+    justify-content: space-between;
+}
+
+.nav-bar{
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.home{
+    height: 100vh;
+    background: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home-div{
+    backdrop-filter: blur(10px);
+    margin-top: 5%;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home-content h1{
+    font-size: 5rem;
+}
+
+.home-content p{
+    text-align: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.home-contct{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.home-contct button{
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    border: #fff solid 0px;
+    margin-top: 5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #000;
+}
+
+.home-contct button:hover{
+    background-color:  #fff;
+    color: #000;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
