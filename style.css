@@ -31,6 +31,11 @@
     color: #fff;
 }
 
+.nav-bar a:hover{
+    transform: scale(1.1);
+    color: gray;
+}
+
 .home{
     height: 100vh;
     background: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg);
