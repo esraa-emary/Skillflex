@@ -466,12 +466,12 @@ p{
     }
 }
 
-@media screen and (max-width:1000px) {
-    .contact-left, .contact-right,.services {
+@media screen and (max-width:768px) {
+    .contact-right, .contact-left,.services ,.about{
         width: 100%;
-        height: auto;
+        height: 30vh;
     }
-    
+
     .Contact { 
         flex-direction: column;
     }
