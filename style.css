@@ -23,7 +23,7 @@ body{
 }
 
 a{
-/*    all: unset;*/
+    all: unset;
     cursor: pointer;
     color: var(--color2);
     font-weight: 700;
@@ -455,9 +455,9 @@ p{
     }
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:425px) {
     .serv-imgs img{
-        width: 250px;
+        width: 50px;
         height: 100px;
     }
 
