@@ -23,7 +23,7 @@ body{
 }
 
 a{
-    all: unset;
+/*    all: unset;*/
     cursor: pointer;
     color: var(--color2);
     font-weight: 700;
