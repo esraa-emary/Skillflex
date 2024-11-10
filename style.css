@@ -442,8 +442,8 @@ p{
 }
 
 /* ////////////////////////////////////////////////////////////////// */
-
-/*@media screen and (max-width:1440px) {
+/*@media screen and (max-width : 425px) {*/
+@media screen and (max-width : 1440px) {
     .Contact{
         padding-left: 3rem;
         padding-right: 5rem;
@@ -454,7 +454,7 @@ p{
         padding-right: 0rem;
     }
 }
-
+/*
 @media screen and (max-width:1024px) {
     .serv-imgs img{
         width: 300px;
